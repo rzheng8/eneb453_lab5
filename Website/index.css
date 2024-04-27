@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2729a8; 
+    padding: 5px;
+    color: white; 
+    text-align: center;
+}
+
+button {
+    background-color: #a4171e; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.dropdownContainer {
+    background-color: #968aab;
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+.container {
+    padding-left: 20px; 
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 100px)); 
+    gap: 10px; 
+    padding: 20px;
+}
+
+.images-grid img {
+    width: 100%; 
+    height: auto; 
+}
